@@ -31,7 +31,7 @@ const Navbar = () => {
                 className={`rounded p-1 ${
                   pathName === item.link && "bg-black text-white"
                 }`}
-                key={item}
+                key={index}
                 href={item.link}
               >
                 {item.name}
@@ -94,7 +94,7 @@ const Navbar = () => {
                 className={`menu_holder flex md:hidden flex-col z-20 justify-center items-center gap-4 fixed top-0 left-0 bg-black w-full h-full`}
               >
                 {navLinks.map((item, index) => (
-                  <motion.div variants={mobileMenuItem} key={item}>
+                  <motion.div variants={mobileMenuItem} key={index}>
                     <Link
                       className="font-medium text-4xl p-2 text-white"
                       href={item.link}

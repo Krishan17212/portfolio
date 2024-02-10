@@ -26,17 +26,17 @@ const Page = () => {
               <div className="bio_text flex flex-col gap-12 justify-center">
                 <h1 className="text-3xl md:text-4xl font-bold">BIOGRAPHY</h1>
                 <p className="text-[17px] font-semibold text-zinc-500">
-                  I'm a Front-End Developer with over 40 months of experience
-                  specializing in HubSpot CMS development. Over the years, I've
-                  fine-tuned my skills in crafting dynamic and engaging websites
-                  that leave a lasting impression. <br /> <br /> In addition to
-                  my expertise in HubSpot, I've spent 1.5 years diving deep into
-                  React.js development. This journey has allowed me to create
-                  highly responsive and user-friendly interfaces that elevate
-                  the overall user experience. Currently, I'm expanding my skill
-                  set by learning Next.js and Node.js. My goal is to stay ahead
-                  of the curve and continue delivering top-notch solutions that
-                  exceed expectations.
+                  I amm a Front-End Developer with over 40 months of experience
+                  specializing in HubSpot CMS development. Over the years, I
+                  have fine-tuned my skills in crafting dynamic and engaging
+                  websites that leave a lasting impression. <br /> <br /> In
+                  addition to my expertise in HubSpot, I have spent 1.5 years
+                  diving deep into React.js development. This journey has
+                  allowed me to create highly responsive and user-friendly
+                  interfaces that elevate the overall user experience.
+                  Currently, I am expanding my skill set by learning Next.js and
+                  Node.js. My goal is to stay ahead of the curve and continue
+                  delivering top-notch solutions that exceed expectations.
                 </p>
                 <div className="scroll_svg">
                   <motion.svg
