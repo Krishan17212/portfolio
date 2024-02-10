@@ -3,9 +3,9 @@ import { motion, useInView } from "framer-motion";
 import Lottie from "lottie-react";
 import skills from "../../../../public/skills.json";
 import { mySkills, experienceData } from "@/utils";
-import { useRef } from "react";
+import React, { useRef } from "react";
 
-const page = () => {
+const Page = () => {
   const experienceRef = useRef();
   const skillsRef = useRef();
   const isSkillsInView = useInView(skillsRef, { margin: "-150px" });
@@ -173,4 +173,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

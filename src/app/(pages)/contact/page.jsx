@@ -1,10 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const page = () => {
+const Page = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const textData = "Say Hello";
@@ -103,4 +103,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
