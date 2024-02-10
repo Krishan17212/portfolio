@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import webdev from "../../public/webdev.json";
 import { motion } from "framer-motion";
 import { heroSvg } from "@/animation";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -36,12 +37,18 @@ export default function Home() {
                 reflect my commitment to excellence.
               </p>
               <div className="w-full flex gap-4 justify-center md:justify-start">
-                <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white transition-all ease-linear hover:bg-white hover:text-black">
+                <Link
+                  href="/portfolio"
+                  className="p-4 rounded-lg ring-1 ring-black bg-black text-white transition-all ease-linear hover:bg-white hover:text-black"
+                >
                   View My Work
-                </button>
-                <button className="p-4 rounded-lg ring-1 ring-black transition-all ease-linear hover:text-white hover:bg-black">
+                </Link>
+                <Link
+                  href="/contact"
+                  className="p-4 rounded-lg ring-1 ring-black transition-all ease-linear hover:text-white hover:bg-black"
+                >
                   Contact Me
-                </button>
+                </Link>
               </div>
             </div>
           </div>
