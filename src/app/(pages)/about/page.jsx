@@ -26,7 +26,7 @@ const Page = () => {
               <div className="bio_text flex flex-col gap-12 justify-center">
                 <h1 className="text-3xl md:text-4xl font-bold">BIOGRAPHY</h1>
                 <p className="text-[17px] font-semibold text-zinc-500">
-                  I amm a Front-End Developer with over 40 months of experience
+                  I am a Front-End Developer with over 40 months of experience
                   specializing in HubSpot CMS development. Over the years, I
                   have fine-tuned my skills in crafting dynamic and engaging
                   websites that leave a lasting impression. <br /> <br /> In
