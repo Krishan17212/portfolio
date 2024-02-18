@@ -40,7 +40,7 @@ const Page = () => {
     >
       <div className="contact_main w-full">
         <div className="container">
-          <div className="contact_inner h-screen grid lg:grid-cols-2 items-center">
+          <div className="contact_inner h-screen grid lg:grid-cols-2 items-center pt-20 lg:pt:0">
             {/* Text */}
             <div className="left flex gap-2 text-5xl justify-center items-center">
               <div className="text_main">
@@ -66,7 +66,7 @@ const Page = () => {
               <form
                 onSubmit={sendEmail}
                 ref={form}
-                className="h-1/2 lg:h-full bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+                className="md:h-1/2 lg:h-full bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-8 md:p-24"
               >
                 <span>Dear Krishan Kumar,</span>
                 <textarea
