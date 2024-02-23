@@ -64,7 +64,10 @@ const Navbar = () => {
                 alt="instagram"
               />
             </Link>
-            <Link href="www.linkedin.com/in/krishan-kumar04" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/krishan-kumar04/"
+              target="_blank"
+            >
               <Image
                 src="/linkedin.png"
                 width={24}
